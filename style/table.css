@@ -1,0 +1,155 @@
+body{
+	padding: 0;
+    margin: 0;
+    background: url(images/image3.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+    font-family: cursive;
+	margin: 0;
+	font-weight: 400;
+}
+
+
+header {
+	background: lightgrey;
+}
+
+header::after{
+	content: '';
+	display: table;
+	clear: both;
+}
+h1 {
+	float: left;
+	padding: 10px 0;
+	
+	
+}
+
+nav {
+	float: right;
+}
+
+nav ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+nav li {
+	display: inline-block;
+	margin-left: 75px;
+	padding-top: 48px;
+position:relative;	
+}
+
+h2{
+	font-family: Poppins-Regular;
+	position: relative;
+	top: 0px;
+	left: 0px;
+}
+
+h3{
+	font-family: Cursive;
+	position: relative;
+	top: -10px;
+	left: 90px;
+	color: #fff;
+	font-weight: 400;
+}
+
+nav a{
+	color: #444;
+	text-decoration: none;
+	text-transform: uppercase;
+	
+	
+}
+
+nav a:hover{
+	color: #000;
+}
+
+nav a::before{
+	content: '';
+	display: block;
+	height: 5px;
+	width: 100%;
+	background-color: #444;
+	position: absolute;
+	top: 0;
+	width: 0%;
+	transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before{
+	width: 100%;
+}
+
+input[type="checkbox"]
+{
+  border-radius: 0.2em;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  transition: .5s;
+}
+
+
+input:checked[type="checkbox"]
+{
+	background: linear-gradient(0deg, lightgreen, green);
+	box-shadow: 0 0 0 2px green, 0 0 0 2px green, inset 0 0 2px rgba(0,0,0,1), 0 2px 2px rgba(0,0,0,.5), inset 0 0 2px rgba(0,0,.2);
+}
+
+.box input[type="submit"]
+{
+	font-weight: bold;
+	color: black;
+	background: lightgrey;
+	padding: 15px 30px;
+	float: right;
+
+}
+
+.box caption
+{
+	font-size: 30px;
+	font-weight: bold;
+	color: black;
+	position: absolute;
+	top: -60px;
+	left: 160px;
+}
+
+.table 
+{
+	position: absolute;
+	left: 400px;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+table {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.data p {
+	font-size: 20px;
+}
+.week1button {
+	float: right;
+}
+.week2button {
+	float: right;
+}

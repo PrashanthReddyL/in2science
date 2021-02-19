@@ -1,0 +1,259 @@
+body{
+	padding: 0;
+    margin: 0;
+    background: url(images/image4.jpg);
+	 background-size:     cover;         
+    background-repeat:no-repeat;
+    font-family: cursive;
+	margin: 0;
+	font-weight: 400;
+}
+
+
+header {
+	background: lightgrey;
+}
+
+header::after{
+	content: '';
+	display: table;
+	clear: both;
+}
+h1 {
+	float: left;
+	padding: 10px 0;
+	
+
+}
+
+nav {
+	float: right;
+}
+
+nav ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+nav li {
+	display: inline-block;
+	margin-left: 75px;
+	padding-top: 48px;
+position:relative;	
+}
+
+h2{
+	font-family: Poppins-Regular;
+	position: relative;
+	top: 0px;
+	left: 0px;
+}
+
+h3{
+	font-family: Cursive;
+	position: relative;
+	top: -10px;
+	left: 90px;
+	font-weight: 400;
+}
+
+nav a{
+	color: #444;
+	text-decoration: none;
+	text-transform: uppercase;
+	
+	
+}
+
+nav a:hover{
+	color: #000;
+}
+
+nav a::before{
+	content: '';
+	display: block;
+	height: 5px;
+	width: 100%;
+	background-color: #444;
+	position: absolute;
+	top: 0;
+	width: 0%;
+	transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before{
+	width: 100%;
+}
+
+.regbox
+{
+	position: absolute;
+	top: 65%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 500px;
+	padding: 40px;
+	background: rgba(0,0,0,0.6);
+	box-sizing: border-box;
+	box-shadow: 0 15px 25 px rgba(0,0,0,.5);
+	border-radius: 10px;
+}
+
+.box
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 400px;
+	padding: 40px;
+	background: rgba(0,0,0,0.8);
+	box-sizing: border-box;
+	box-shadow: 0 15px 25 px rgba(0,0,0,.5);
+	border-radius: 10px;
+}
+.box h2
+{
+	margin: 0 0 30px;
+	padding: 0;
+	color: #fff;
+	text-align: center;
+}
+
+.box .container
+{
+	position: relative;
+	
+}
+
+.box .container input
+{
+	width: 100%;
+	padding: 10px 0;
+	font-size: 16px;
+	color: #fff;
+	letter-spacing: 1px;	 
+	margin-bottom: 30px;
+	border: none;
+	border: 1px solid #fff;
+	outline: none;
+	background: transparent;
+}
+
+.box .container label
+{
+	
+	color: #fff;
+	
+}
+
+.box .container input:focus ~ label,
+.box .container input:valid ~ label
+{
+	top: -18px;
+	left: 0;
+	color: #03a9f4;
+	font-size: 12px;
+}
+
+.box input[type="submit"]
+{
+	background: transparent;
+	border: none;
+	outline: none;
+	font-family: cursive;
+	color: #fff;
+	background: #03a9f4;
+	padding: 10px 20px;
+}
+
+.box button[type="button"]
+{
+	border:none;
+	outline: none;
+	font-family: cursive;
+	color: #fff; 
+	background: grey;
+	padding: 5px 10px;
+}
+
+.regbox h2
+{
+	margin: 0 0 30px;
+	padding: 0;
+	color: #fff;
+	text-align: center;
+}
+
+.regbox .container
+{
+	position: relative;
+	
+}
+
+.regbox .container input
+{
+	width: 100%;
+	padding: 10px 0;
+	font-size: 16px;
+	color: #fff;
+	letter-spacing: 1px;	 
+	margin-bottom: 30px;
+	border: none;
+	border: 1px solid #fff;
+	outline: none;
+	background: transparent;
+}
+
+.regbox .container label
+{
+	
+	color: #fff;
+	
+}
+
+.regbox .container input:focus ~ label,
+.regbox .container input:valid ~ label
+{
+	top: -18px;
+	left: 0;
+	color: #03a9f4;
+	font-size: 12px;
+}
+
+.regbox input[type="submit"]
+{
+	background: transparent;
+	border: none;
+	outline: none;
+	font-family: cursive;
+	color: #fff;
+	background: #03a9f4;
+	padding: 10px 20px;
+}
+
+.regbox select[id="myList"]
+{
+	background: transparent;
+	border: none;
+	outline: none;
+	font-family: cursive;
+	background: #160301;
+	padding: 10px 20px;
+	color: #fff;
+}
+.regbox button[type="button"]
+{
+	border:none;
+	outline: none;
+	font-family: cursive;
+	color: #fff; 
+	background: #f4027f;
+	padding: 5px 10px;
+}
+
+
+.right-half p {
+	font-size: 20px;
+}

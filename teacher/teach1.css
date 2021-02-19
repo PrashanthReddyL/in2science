@@ -1,0 +1,117 @@
+.formelements {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.teachbox
+{
+	position: absolute;
+	top: 65%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 500px;
+	padding: 40px;
+	background: rgba(0,0,0,0.3);
+	box-sizing: border-box;
+	box-shadow: 0 15px 25 px rgba(0,0,0,.5);
+	border-radius: 10px;
+}
+
+.teachbox .formelements
+{
+	position: relative;
+	
+}
+
+
+.teachbox .formelements label
+{
+	color: #fff;
+}
+.teachbox .formelements{
+	color: white;
+}
+
+.teachbox .formelements input:focus ~ label,
+.teachbox .formelements input:valid ~ label
+{
+	top: -18px;
+	left: 0;
+	color: #03a9f4;
+	font-size: 12px;
+}
+
+.teachbox input[type="submit"]
+{
+	background: transparent;
+	border: none;
+	outline: none;
+	font-family: cursive;
+	color: #fff;
+	background: #03a9f4;
+	padding: 10px 20px;
+}
+
+.teachbox select[id="school"]
+{
+	background: transparent;
+	border: none;
+	outline: none;
+	font-family: cursive;
+	background: #160301;
+	padding: 10px 20px;
+	color: #fff;
+}
+.teachbox button[type="weeklybutton"]
+{
+	border:none;
+	outline: none;
+	font-family: cursive;
+	color: #fff; 
+	background: #f4027f;
+	padding: 5px 10px;
+}
+.teachbox button[type="fortnightlybutton"]
+{
+	border:none;
+	outline: none;
+	font-family: cursive;
+	color: #fff; 
+	background: #f4027f;
+	padding: 5px 10px;
+}
+
+.teachbox select[id="standard"]
+{
+	background: transparent;
+	border: none;
+	outline: none;
+	font-family: cursive;
+	background: #160301;
+	padding: 10px 20px;
+	color: #fff;
+}
+.teachbox select[id="subject"]
+{
+	background: transparent;
+	border: none;
+	outline: none;
+	font-family: cursive;
+	background: #160301;
+	padding: 10px 20px;
+	color: #fff;
+}
+.teachbox h3
+{
+	margin: 0 0 30px;
+	padding: 0;
+	color: #fff;
+	text-align: center;
+	font-weight: 400;
+	font-size: 25px;
+	font-weight: bold;
+	position: relative;
+	top: 0px;
+	left: 0px;
+	font-family: cursive;
+}	
